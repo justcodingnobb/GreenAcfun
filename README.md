@@ -17,3 +17,7 @@ https://chrome.google.com/webstore/detail/green-acfun/nebaeokekfbiggegkofimckbod
  https://greasyfork.org/zh-CN/scripts/29426-green-acfun
 
 
+### 如果您觉得此项目为您带来了方便或快乐，您可以捐助我来更好的开发此扩展
+ ![微信](http://rekkles.xyz/wx.png)
+ ![支付宝](http://rekkles.xyz/alipay.jpeg)
+
