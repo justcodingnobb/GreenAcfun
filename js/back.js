@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name         Green Acfun
+// @namespace    *://*.acfun.*/*
+// @version      1.0.3
+// @description  Change Ac avatar to greeeeeeen
+// @author       Rekkles
+// @match        *://*.acfun.cn/*
+// @grant        none
+// ==/UserScript==
+
 (function () {
     'use strict';
     var bool = false;

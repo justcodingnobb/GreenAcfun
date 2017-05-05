@@ -1,0 +1,12 @@
+/node_modules
+/public/storage
+/vendor
+/.idea
+.env
+
+
+.idea
+.DS_Store
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
