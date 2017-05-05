@@ -61,17 +61,7 @@
                 }
             }
         });
-        /*$('.name').css('color', 'green');
-        $('.btn-quote').css('color', 'green');
-        $('.index-comment').css('color', 'red');
-        $('.btn-report').css('color', 'red');
-        $('#area-comment-inner .avatar').each(function () {
-            if ($(this).next('img').length > 0) {
-                $(this).next('img').attr('src', 'http://i2.muimg.com/567571/221d33169d92b9ad.png').attr('class', 'avatar-bg-sp2017');
-            } else {
-                $(this).after('<img class="avatar-bg-sp2017" src="http://i2.muimg.com/567571/221d33169d92b9ad.png">');
-            }
-        });*/
+
         $('#area-comment-inner  .avatar').css('border-radius', '50%');
 
         if (window.location.href == 'http://www.acfun.cn/member/#area=mention') {
