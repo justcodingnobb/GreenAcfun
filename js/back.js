@@ -31,7 +31,7 @@
                         $('.edui-tab-item:last').after("<li class='edui-tab-item'><a data-context='.edui-emotion-Jtab" + index + "' hidefocus='true' class='edui-tab-text'>" + arr[s][2] + "</a></li>");
                         var html = '<div class="edui-emotion-Jtab' + index + ' edui-tab-pane">';
                         html += '<table border="1" class="edui-emotion-smileytable"><tbody>';
-                        var baseURL = 'http://yimeicrm.cn/umeditor/dialogs/emotion/images/ac/' + arr[s][1];
+                        var baseURL = 'http://opgpv8oqj.bkt.clouddn.com/umeditor/dialogs/emotion/images/ac/' + arr[s][1];
                         for (var i = 1; i <= arr[s][0]; i++) {
                             if (i == 1 || (i + num) % 12 === 0) {
                                 html += '<tr>';
@@ -51,7 +51,7 @@
                             }
                             posflag++;
                         }
-                        html += "</tbody> </table><a style='color:red;position:relative;top:10px;' href='javascript:;' onclick=window.open('" + arr[s][3] + "')>当前页绿娘表情包下载！！！ 密码: " + arr[s][4] + "</a><span style='position:relative;top:10px;left:100px;color:#00aaee'>喜欢的可以<a target='_blank' href='jhttp://rekkles.xyz/2017/04/26/GreenAcFun2-0/'>捐助</a></span></div>";
+                        html += "</tbody> </table><a style='color:red;position:relative;top:10px;' href='javascript:;' onclick=window.open('" + arr[s][3] + "')>当前表情包<span style='font-size:25px;'>点我下载！</span> 密码: " + arr[s][4] + "</a><a href='javascript:;' style='color:green;position:relative;top:10px;font-size: 20px;' onclick=window.open('https://github.com/justcodingnobb/GreenAcfun')>&nbsp;&nbsp;代码地址点我&nbsp;&nbsp;&nbsp;&nbsp;</a><span style='position:relative;top:10px;color:#00aaee'>喜欢的可以<a href='javascript:;' onclick=window.open('http://rekkles.xyz/2017/04/26/GreenAcFun2-0/')>捐助</a></span></div>";
                         $('.edui-tab-pane:last').after(html);
                         $('.edui-tab-item:last').click();
                     }
@@ -66,7 +66,7 @@
         $('img').each(function () {
             if ($(this).attr('src') !== '' && $(this).attr('src') !== null && $(this).attr('src') !== undefined) {
                 var str = $(this).attr('src');
-                if (str.indexOf('http://yimeicrm.cn') >= 0) {
+                if (str.indexOf('http://opgpv8oqj.bkt.clouddn.com') >= 0) {
                     $(this).attr('class', 'emotion');
                 }
             }
@@ -77,7 +77,7 @@
         if (window.location.href == 'http://www.acfun.cn/member/#area=mention') {
             $('.btn-img').each(function () {
                 var href = $(this).attr('href');
-                if (href.indexOf('http://yimeicrm.cn') >= 0) {
+                if (href.indexOf('http://opgpv8oqj.bkt.clouddn.com') >= 0) {
                     $(this).after('<img class="emotion" src="' + href + '">');
                     $(this).remove();
                 }
