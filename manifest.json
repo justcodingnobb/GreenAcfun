@@ -1,8 +1,8 @@
 {
   "name": "Green AcFun",
   "manifest_version": 2,
-  "version": "1.0.3",
-  "description": "绿化Ac~ 作者:Rekkles 博客:http://rekkles.xyz",
+  "version": "1.0.6",
+  "description": "彩色Ac 作者:Rekkles 博客:http://rekkles.xyz",
   "browser_action": {
     "default_icon" : "images/01.png",
     "default_popup": "popup.html"
